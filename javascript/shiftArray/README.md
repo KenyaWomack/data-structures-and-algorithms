@@ -9,5 +9,9 @@
        - [n/a ] Expected failure
        - [n/a ] Edge Case (if applicable/obvious)
 
+       ## Collaborator
+
+Coriana Williams
+
 [Whiteboard lab02](whiteboardlab02.png)
 
