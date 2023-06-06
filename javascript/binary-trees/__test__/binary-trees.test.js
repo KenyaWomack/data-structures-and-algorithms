@@ -1,5 +1,5 @@
 'use strict';
-const { Tree, Node } = require('./index.js');
+const { Tree, Node } = require('../index.js');
 // For a Binary Search Tree, define a method for each of the depth first traversals:
 // 1) pre order
 // 2) in order
