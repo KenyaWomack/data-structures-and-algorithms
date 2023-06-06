@@ -25,3 +25,4 @@ Inside the repository, run `npm install`.\
 Navigate to the JavaScript folder and run `npm test binary-trees.test.js`
 
 [binary-trees.test.js](./binary-trees.test.js)
+[GitHub Actions](https://github.com/KenyaWomack/data-structures-and-algorithms/actions)
