@@ -11,8 +11,6 @@ Each depth first traversal method should return an array of values, ordered appr
 
 ## Whiteboard Process
 
-![LinkedList Whiteboard]()
-
 ## Approach & Efficiency
 
 BigO Time - O(n) since the time scaling is linear based on the size of the input\
