@@ -4,6 +4,9 @@
 // level goes through he levels
 
 function breadthFirst(tree) {
+  if(tree.root === null) {
+    throw new Error('Hello, empty binary tree');
+  }
   const root = tree.root;
   const roots = [];
 
