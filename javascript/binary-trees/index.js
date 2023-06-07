@@ -107,3 +107,5 @@ console.log('inOrder results:', results);
 console.log('-------postOrder-------');
 results = tree.postOrder();
 console.log('postOrder results:', results);
+
+module.exports = { Tree, Node };
