@@ -12,6 +12,9 @@ class Tree {
     this.root = null;
   }
   preOrder(){
+    if(!this.root) {
+      throw new Error('Empty Tree');
+    }
     const results = [];
     // defining helper our function
     const traverse = (node) => {
@@ -31,6 +34,9 @@ class Tree {
     return results;
   }
   inOrder(){
+    if(!this.root) {
+      throw new Error('Empty Tree');
+    }
     const results = [];
     const traverse = (node) => {
       if(node.left) {
@@ -45,6 +51,9 @@ class Tree {
     return results;
   }
   postOrder(){
+    if(!this.root) {
+      throw new Error('Empty Tree');
+    }
     const results = [];
     const traverse = (node) => {
       if(node.left) traverse(node.left);
