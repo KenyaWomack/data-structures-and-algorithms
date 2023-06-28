@@ -1,5 +1,5 @@
 'use strict';
-const { tree_intersection } = require('./tree-intersection');
+const tree_intersection = require('./tree-intersection');
 const { Node, Tree } = require('../binary-trees/index');
 
 describe('Tree Intersection', () => {
@@ -29,10 +29,11 @@ describe('Tree Intersection', () => {
     let binaryTree2 = new Tree();
 
     // Perform the tree intersection
-    let intersection = tree_intersection(binaryTree1, binaryTree2);
+
+
 
     // Verify the intersection result
-    expect(intersection).toEqual([]);
+    expect(()=> tree_intersection(binaryTree1, binaryTree2)).toThrow('Empty Tree');
   });
 
   test('No intersection between two non-matching binary trees', () => {
